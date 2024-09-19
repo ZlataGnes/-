@@ -1,1 +1,62 @@
+.cart-btn {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(to left, rgb(173, 154, 255), rgb(149, 110, 255));
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 0.9em;
+    font-family: "Martian Mono", monospace;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+
+.bell {
+    width: 25px;
+}
+
+
+
+
+.cart-btn:hover {
+    background: linear-gradient(to left, rgb(154, 131, 255), rgb(135, 91, 255));
+}
+
+
+.cart-btn:active {
+    transform: scale(0.97);
+    transition-duration: .2s;
+}
+
+
+.cart-btn:hover .bell {
+    animation: bellRing 0.9s both;
+}
+
+
+.cart-btn div {
+    position: relative;
+}
+
+
+.cart-counter {
+    background: #fff;
+    font-size: small;
+    color: rgb(135, 91, 255);
+    border-radius: 100px;
+    padding: 0 .2em;
+    position: absolute;
+    /* Змініть позицію на абсолютну */
+    top: 0;
+    /* Відступ зверху */
+    right: 0;
+    /* Відступ справа */
+}
 
