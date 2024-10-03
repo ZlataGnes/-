@@ -1,7 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 
+
+
+
 body{
     font-family: "Gowun Batang", serif;
+    background-color: #fff;
+}
+
+
+body.dark-theme{
+    background-color: #412222;
+    color: #fff;
+}
+
+
+body.dark-theme .stats-container{
+    text-shadow: 1px 1px 5px white;
+
+
 }
 .cart-btn {
     display: flex;
@@ -12,6 +29,9 @@ body{
     cursor: pointer;
     background-color: transparent;
 
+
+
+
 }
 .registration-icon{
     background-color: transparent;
@@ -20,18 +40,33 @@ body{
     font-size: 20px;
 }
 
+
+
+
 .bell {
     width: 25px;
     margin-right: 20px;
 }
 
+
+
+
 .fade-in-text{
     font-size: 60px;
 }
 
+
+
+
 .bg-color{
     background-color: #FADCD9;
 }
+
+
+
+
+
+
 
 
 .cart-btn:active {
@@ -40,14 +75,32 @@ body{
 }
 
 
+
+
+
+
+
+
 .cart-btn:hover .bell {
     animation: bellRing 0.9s both;
 }
 
 
+
+
+
+
+
+
 .cart-btn div {
     position: relative;
 }
+
+
+
+
+
+
 
 
 .cart-counter {
@@ -79,19 +132,31 @@ body{
     border: 1px solid white;
 }
 
+
+
+
 .shop-now:hover{
     box-shadow: 5px 5px 10px #F37878;
 }
 
+
+
+
 .new-collection{
     text-align: center;
 }
+
+
+
 
 .carts{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+
+
 
 .cart-1{
     width: 375px;
@@ -101,6 +166,9 @@ body{
     align-items: flex-end;
     justify-content: center;
 }
+
+
+
 
 .cart-2{
     width: 375px;
@@ -119,6 +187,9 @@ body{
     justify-content: center;
 }
 
+
+
+
 .cart p{
     font-size: 20px;
     width: 330px;
@@ -129,12 +200,17 @@ body{
     justify-content: center;
 }
 
+
+
+
 .cart:hover p{
     background-color: #FADCD9;
 }
 
-    .stats-container {
 
+
+
+.stats-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,99 +218,169 @@ body{
     color: #2b0101;
     gap: 50px;
     margin-top: 50px;
-    }
+}
 
-    .stat-item {
+
+
+
+.stat-item {
     text-align: center;
-    }
-    .stat-number {
+}
+
+
+
+
+.stat-number {
     font-size: 40px;
     font-weight: bold;
-    }
+}
 
-    .stat-description {
+
+
+
+.stat-description {
     font-size: 16px;
-    }
-    .divider {
+}
+
+
+
+
+.divider {
     height: 60px;
     width: 1px;
-    background-color:#2b0101;
-    }
-    
-    .carousel-section {
+    background-color: #2b0101;
+}
+
+
+
+
+.carousel-section {
     width: 375px;
     height: 384px;
     margin: 0 auto;
     overflow: hidden;
-    }
-    .carousel-inner img {
+}
+
+
+
+
+
+
+
+
+.carousel-inner img {
     width: 375px;
     height: 384px;
     object-fit: cover;
-    }
-    .stars {
+}
+
+
+
+
+.stars {
     object-fit: contain;
     width: 120px !important;
     height: 12px !important;
     -webkit-text-stroke: 1px white;
-    }
-    .carousel-item p {
-    -webkit-text-stroke: 0.5px rgb(174, 36, 155); 
-    color: black;
-    }
-    .carousel-item h5 {
+}
+
+
+
+
+.carousel-item p {
     -webkit-text-stroke: 0.5px rgb(174, 36, 155);
     color: black;
-    }
-    
-    .big-section {
+}
+
+
+
+
+.carousel-item h5 {
+    -webkit-text-stroke: 0.5px rgb(174, 36, 155);
+    color: black;
+}
+
+
+
+
+.big-section {
     display: flex;
     align-items: center;
     background-color: #000;
     padding: 0px 150px;
-    }
-    .text-container {
+  }
+ 
+  .text-container {
     flex: 1;
     color: #fff;
     padding: 20px;
-    }
-    .carousel-inner img {
+  }
+
+
+
+
+  .carousel-inner img {
     width: 100%;
     height: auto;
-    }
-    .stars {
+  }
+ 
+  .stars {
     object-fit: contain;
     width: 120px;
     height: 12px;
-    }
-    .part-one{
+  }
+ 
+  .part-one{
     display: flex;
-    }
-    .part-one img{
+  }
+  .part-one img{
     width: 320px;
-    }
-    
-    .part-two{
+  }
+
+
+
+
+  footer{
+    margin-top: 50px;
+   
+  }
+
+
+
+
+  .part-two{
     height: 275px;
-    background-color:#000;
+    background-color: #000;
     display: flex;
     justify-content: center;
     gap: 60px;
     align-items: center;
     color: #fff;
     flex-direction: column;
-    }
-    footer a{
+  }
+
+
+
+
+  footer a{
     color: #fff;
     text-decoration: none;
-    }
-    footer nav{
+  }
+
+
+
+
+  footer nav{
     display: flex;
     justify-content: center;
     gap: 60px;
     align-items: center;
-    }
-    .follow-us{
+  }
+
+
+
+
+  .follow-us{
     background-color: #fff;
     color: #000;
     width: 465px;
@@ -244,8 +390,125 @@ body{
     align-items: center;
     margin-top: -80px;
     font-size: 25px;
-    }
+  }
 
-    footer a:hover{
-        color: #F37878;
+
+
+
+  footer a:hover{
+    color: #F37878;
+  }
+
+
+  /* From Uiverse.io by barisdogansutcu */
+.love-heart:before,#switch {
+    display: none;
+   }
+   
+   .love-heart, .love-heart::after {
+    border-color: hsl(231deg 28% 86%);
+    border: 1px solid;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 10px;
+    height: 8px;
+    border-bottom: 0
+   }
+   
+   .round {
+    position: absolute;
+    z-index: 1;
+    width: 8px;
+    height: 8px;
+    background: hsl(0deg 0% 100%);
+    box-shadow: rgb(0 0 0 / 24%) 0px 0px 4px 0px;
+    border-radius: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all .5s ease;
+    animation: check-animation2 .5s forwards;
+   }
+   
+   input:checked + label .round {
+    transform: translate(0px, 0px);
+    animation: check-animation .5s forwards;
+    background-color: hsl(0deg 0% 100%);
+   }
+   
+   @keyframes check-animation {
+    0% {
+     transform: translate(0px, 0px);
     }
+   
+    50% {
+     transform: translate(0px, 7px);
+    }
+   
+    100% {
+     transform: translate(7px, 7px);
+    }
+   }
+   
+   @keyframes check-animation2 {
+    0% {
+     transform: translate(7px, 7px);
+    }
+   
+    50% {
+     transform: translate(0px, 7px);
+    }
+   
+    100% {
+     transform: translate(0px, 0px);
+    }
+   }
+   
+   .love-heart {
+    box-sizing: border-box;
+    transform: rotate(-45deg) scale(2);
+    display: block;
+    border-color: hsl(231deg 28% 86%);
+    cursor: pointer;
+
+
+}
+
+
+.love{
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+   
+   input:checked + .love-heart, input:checked + .love-heart::after, input:checked + .love-heart .bottom {
+    border-color: hsl(347deg 81% 61%);
+    box-shadow: inset 6px -5px 0px 2px hsl(347deg 99% 72%);
+   }
+   
+   .love-heart::after, .love-heart .bottom {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-color: hsl(231deg 28% 86%);
+   }
+   
+   .love-heart::after {
+    right: -9px;
+    transform: rotate(90deg);
+    top: 7px;
+   }
+   
+   .love-heart .bottom {
+    width: 11px;
+    height: 11px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-color: hsl(231deg 28% 86%);
+    left: -1px;
+    top: 5px;
+    border-radius: 0px 0px 0px 5px;
+   }
+   
+
+
+
