@@ -18,8 +18,23 @@ body.dark-theme{
 body.dark-theme .stats-container{
     text-shadow: 1px 1px 5px white;
 
-
 }
+
+body.dark-theme .cart-1{
+color: #000;
+}
+
+
+body.dark-theme .cart-2{
+    color: #000;
+}
+
+
+body.dark-theme .cart-3{
+    color: #000;
+    }
+
+
 .cart-btn {
     display: flex;
     align-items: center;
